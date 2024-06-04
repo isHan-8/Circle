@@ -1,0 +1,70 @@
+.Leftbar{
+    flex: 1;
+}
+.NotificationsContainer{
+    width: 18pc;
+    height: 60vh;
+    background-color: rgb(174, 17, 17);
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/* .NotificationsContainer2{
+    width: 18pc;
+    height: 60vh;
+    background-color: rgb(39, 37, 37);
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+} */
+.NotificationsContainer1{
+    width: 18pc;
+    height: 60vh;
+    background-color: rgb(229, 235, 230);
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.notificationimg{
+    width:37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.followinguserimage{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 40px;
+
+}
+
+.likeimage{
+    width: 30px;
+    height: 30px;
+    margin-left: 43px;
+    border-radius: 3px;
+}
+.exploreContainer {
+    display: table-column;
+    /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+    gap: 11px;
+    margin-top: 10px;
+  }
+  
+  .exploreimage {
+    width: 92%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .exploreimage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(201, 239, 231);
+  }
+  

@@ -1,0 +1,158 @@
+/* .mainContainerForsignup{
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.submainContainer{
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.logoText{
+    font-size: 40px;
+    text-align: start;
+    margin-top: 0px;
+}
+.introtext{
+    font-size: 20px;
+    text-align: start;
+    margin-top: -40px;
+}
+
+.createaccountTxt{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 30%;
+}
+
+.inputText{
+    display: flex;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnforsignup{
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 180px;
+    padding-right: 202px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.part{
+    color: rgb(167, 127, 127);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mainContainerForsignup {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://images.unsplash.com/photo-1487147264018-f937fba0c817?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .submainContainer {
+    display: flex;
+    width: 60%;
+    background: rgba(221, 222, 156, 0.584);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(172, 18, 25, 0.2);
+    padding: 20px;
+  }
+  
+  .logoText {
+    font-size: 887rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .logoText .part {
+    color: #85c2a7;
+  }
+  
+  .introtext {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .createaccountTxt {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .inputText {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .inputText:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .btnforsignup {
+    width: 20%;
+    padding: 10px;
+    background-color: #66aa72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .btnforsignup:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

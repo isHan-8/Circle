@@ -1,0 +1,244 @@
+/* .rightbar{
+    flex: 1;
+}
+
+.rightcontainer{
+    width: 20pc;
+    height: 30vh;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.rightcontainer2{
+    width: 20pc;
+    height: 60vh;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.adsimg{
+    width: 130px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.adsContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.Profileimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.addfriend{
+    width: 20px;
+    height: 20px;
+    background-color: yellowgreen;
+    
+    /* background-color: red; */
+    
+/* } */
+
+/* 
+.rightbar {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #e0e0e0;
+  }
+  
+  .rightcontainer {
+    margin-bottom: 20px;
+  }
+  
+  .adsContainer {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .adsimg {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .postActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .postActions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .postActions button.edit {
+    background-color: #ffc107;
+  }
+  
+  .postActions button.delete {
+    background-color: #dc3545;
+  }
+  
+  .createPostButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .rightbar {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #e0e0e0;
+  }
+  
+  .rightcontainer,
+  .rightcontainer2 {
+    margin-bottom: 20px;
+  }
+  
+  .adsContainer {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .adsimg {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .postActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .postActions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .postActions button.edit {
+    background-color: #ffc107;
+  }
+  
+  .postActions button.delete {
+    background-color: #dc3545;
+  }
+  
+  .createPostButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .followContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .followImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .followButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+   */
+
+   .rightbar{
+    flex: 1;
+}
+
+.rightcontainer{
+    width: 20pc;
+    height: 30vh;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.rightcontainer2{
+    width: 20pc;
+    height: 60vh;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.adsimg{
+    width: 130px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.adsContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.Profileimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.addfriend{
+    width: 20px;
+    height: 20px
+    
+}

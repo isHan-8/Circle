@@ -1,0 +1,58 @@
+.ProfileLeftbar {
+    flex: 1;
+}
+
+.NotificationsContainer {
+    width: 18pc;
+    height: 50vh;
+    background-color: rgb(248, 231, 231);
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 4px 8px rgba(216, 78, 78, 0.1);
+    padding: 3px;
+}
+.Profilepageimage {
+    width: 260px;
+    height: 120px;
+    /* border-radius: 100%;  */
+    object-fit: cover; /* Ensures the image covers the entire element */
+    margin: 10px auto; /* Adds margin for spacing */
+    display: block; /* Centers the image */
+    border: 2px solid #ddd; /* Adds a border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    background-color: #fff; /* Adds a white background color */
+}
+.Profilepageimage1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ProfilepageCover {
+    width: 270px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.friendimage {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.friendimage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
